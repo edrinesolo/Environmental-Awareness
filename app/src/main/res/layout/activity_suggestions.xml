@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_add_event"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="com.example.bonaparte.drawermenu.Suggestions"
+    >
+
+
+    <EditText
+        android:id="@+id/suggestion_detail"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/suggestion_title"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/input_outline"
+        android:ems="10"
+        android:hint=" Details.........."
+
+        android:padding="10dp"
+        android:gravity="left"
+        android:inputType="textMultiLine"/>
+
+    <Button
+        android:id="@+id/post_inquire_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/colorPrimary"
+        android:text="INQUIRE/SUGGEST"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/suggestion_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/input_outline"
+        android:ems="10"
+        android:hint="Suggestion_title"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:padding="10dp" />
+
+     />
+
+
+</RelativeLayout>
